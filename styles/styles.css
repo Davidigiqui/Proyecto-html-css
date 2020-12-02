@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2? family = IBM + Plex + Mono: wght @ 100 & family = IBM + Plex + Sans: wght @ 100 & display = swap');
+
+*,
+*:before, *:after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    color:#060A24;
+    margin: 0;
+}
+#Het{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.S1{
+    display: block;
+    padding: 1rem;
+    margin: 0;
+}
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin: 0;
+}
+p{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0;
+    padding: 1rem 0;
+}
+#Boton a{
+    display: block;
+    background: #00F3BB;
+    font-family: 'IBM Plex Mono-Medium', monospace;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    text-decoration: none;
+    padding: 12px 48px;
+    border: 1px solid transparent;
+}
+#Boton a:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #FFFFFF;
+}
+h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 42px;
+    padding: 1rem;
+    margin: 0;  
+}
+.S2{
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    padding: 65px 0 130px 0;
+    clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
+    color: #FFFFFF;    
+}
+.spotify div{
+    padding: 0.2rem 1rem;
+}
+.S3 #i1{
+    position: relative;
+    margin-top: -100px;
+    width: 100%;
+    height: auto;
+}
+.S4 p{
+    padding: 8px 1rem;
+}
+.S5 img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.S6 h2{
+    width: 100%;
+    padding: 4rem 1rem;
+}
+.S6 .topicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+}
+.S7{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 100%);
+    padding: 30px 0 80px 0;
+    color: #FFFFFF;
+}
+footer{
+    text-align: center;
+    align-items: center;
+}
+#iconos i{
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 5px;
+    padding: 15px 15px 30px 15px;
+}
